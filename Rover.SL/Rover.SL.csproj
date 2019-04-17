@@ -50,5 +50,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Implementation\RobotAction.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rover.BO\Rover.BO.csproj">
+      <Project>{ba6f3f41-1a40-482a-84a7-5eb67b817850}</Project>
+      <Name>Rover.BO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

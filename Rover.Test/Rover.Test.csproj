@@ -75,7 +75,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Rover.BO\Rover.BO.csproj">
+      <Project>{ba6f3f41-1a40-482a-84a7-5eb67b817850}</Project>
+      <Name>Rover.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rover.SL\Rover.SL.csproj">
+      <Project>{0f925cd7-67fb-4113-8e9e-5890c1d87c32}</Project>
+      <Name>Rover.SL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
