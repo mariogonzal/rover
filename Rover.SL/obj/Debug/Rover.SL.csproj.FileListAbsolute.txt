@@ -1,0 +1,8 @@
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.SL\bin\Debug\Rover.SL.dll
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.SL\bin\Debug\Rover.SL.pdb
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.SL\bin\Debug\Rover.BO.dll
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.SL\bin\Debug\Rover.BO.pdb
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.SL\obj\Debug\Rover.SL.csprojResolveAssemblyReference.cache
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.SL\obj\Debug\Rover.SL.csproj.CoreCompileInputs.cache
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.SL\obj\Debug\Rover.SL.dll
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.SL\obj\Debug\Rover.SL.pdb

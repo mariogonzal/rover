@@ -1,0 +1,17 @@
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Rover.App.exe.config
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Rover.App.exe
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Rover.App.pdb
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Rover.BO.dll
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Rover.SL.dll
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Unity.Abstractions.dll
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Rover.BO.pdb
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Rover.SL.pdb
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Unity.Abstractions.pdb
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\obj\Debug\Rover.App.csprojResolveAssemblyReference.cache
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\obj\Debug\Rover.App.csproj.CoreCompileInputs.cache
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\obj\Debug\Rover.App.exe
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\obj\Debug\Rover.App.pdb
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Unity.Container.dll
+C:\Users\MarioAlberto\Documents\Visual Studio 2017\Projects\rover\Rover.App\bin\Debug\Unity.Container.pdb
