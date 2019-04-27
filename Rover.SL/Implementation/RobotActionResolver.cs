@@ -20,8 +20,7 @@ namespace Rover.SL.Implementation
             switch (commandInstruction)
             {
                 case "F":
-                    return new RobotActionMoveForward();
-                    
+                    return new RobotActionMoveForward();                    
                 case "L":
                     return new RobotActionTurnLeft();                    
                 case "R":

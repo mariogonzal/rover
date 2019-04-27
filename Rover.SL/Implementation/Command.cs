@@ -22,34 +22,14 @@ namespace Rover.SL.Implementation
             this.robotActionResolver = robotActionResolver;
         }
 
-        public void ExecuteCommand(IRobot rover, string commandText)
+        public IRobot ExecuteCommand(IRobot rover, string commandText)
         {
             ValidateCommand(commandText);
             robotAction = robotActionResolver.GetRobotAction(commandText);
-            robotAction.Excecute(ref rover);
+            return robotAction.Excecute( rover);
 
         }
-
-        public void ReadCommand()
-        {
-            robotActionResolver.GetRobotAction("I").Excecute(ref rover);
-            robotActionResolver.GetRobotAction("P").Excecute(ref rover);            
-            while (true)
-            {
-                var commandtxt = Console.ReadLine();
-                try
-                {
-                    ExecuteCommand(rover, commandtxt);
-                }
-                catch (Exception ex)
-                {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine(ex.Message);
-                    Console.ResetColor();
-                }
-                robotActionResolver.GetRobotAction("P").Excecute(ref rover);
-            }
-        }
+       
 
         public void ValidateCommand(string commandText)
         {

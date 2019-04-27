@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CardinalPointEnum.cs" />
+    <Compile Include="CommandEnum.cs" />
     <Compile Include="Implementation\CoordinatePoint.cs" />
     <Compile Include="Interfaces\ICoordinatePoint.cs" />
     <Compile Include="Interfaces\IRobot.cs" />

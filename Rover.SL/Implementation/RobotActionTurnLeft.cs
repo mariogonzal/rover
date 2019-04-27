@@ -11,10 +11,11 @@ namespace Rover.SL.Implementation
 {
     public class RobotActionTurnLeft : IRobotAction
     {
-        public void Excecute(ref IRobot rover)
+        public IRobot Excecute( IRobot rover)
         {
             rover.FacingTo = rover.FacingTo == CardinalPoint.North ? CardinalPoint.West : (CardinalPoint)((int)rover.FacingTo - 1);
             Console.WriteLine(rover.ToString());
+            return rover;
         }
 
        

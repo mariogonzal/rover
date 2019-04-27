@@ -12,6 +12,7 @@ namespace Rover.BO.Implementation
 
         public ICoordinatePoint Position { get; set; }
         public CardinalPoint FacingTo { get; set; }
+        public string FormattedString { get; set; }
 
         public Robot()
         {            

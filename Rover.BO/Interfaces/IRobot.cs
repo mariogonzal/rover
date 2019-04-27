@@ -12,6 +12,8 @@ namespace Rover.BO.Interfaces
 
         CardinalPoint FacingTo { get; set; }
 
-        
+        string FormattedString { get; set; }
+
+
     }
 }

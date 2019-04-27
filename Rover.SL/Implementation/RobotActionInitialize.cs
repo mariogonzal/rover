@@ -19,9 +19,10 @@ namespace Rover.SL.Implementation
         }       
        
 
-        public void Excecute(ref IRobot rover)
+        public IRobot Excecute( IRobot rover)
         {
             rover =roverCreator.CreateRover();
+            return rover;
         }
     }
 }

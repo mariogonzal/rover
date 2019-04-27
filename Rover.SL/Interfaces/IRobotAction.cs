@@ -10,6 +10,6 @@ namespace Rover.SL.Interfaces
 {
     public interface IRobotAction
     {
-        void Excecute(ref IRobot rover);
+        IRobot Excecute( IRobot rover);
     }
 }

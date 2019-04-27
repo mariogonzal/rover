@@ -11,7 +11,7 @@ namespace Rover.SL.Implementation
 {
     public class RobotActionMoveForward : IRobotAction
     {
-        public void Excecute(ref IRobot rover)
+        public IRobot Excecute( IRobot rover)
         {
             switch (rover.FacingTo)
             {
@@ -32,6 +32,7 @@ namespace Rover.SL.Implementation
                         rover.Position.CoordY--;
                     break;
             }
+            return rover;
 
         }
 

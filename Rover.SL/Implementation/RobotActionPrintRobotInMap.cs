@@ -10,7 +10,7 @@ namespace Rover.SL.Implementation
 {
     public class RobotActionPrintRobotInMap : IRobotAction
     {
-        public void Excecute(ref IRobot rover)
+        public IRobot Excecute( IRobot rover)
         {
             var instructions = "\nRotate Left : L\nRotate Right: R\nForward: F\n";
             var map = "";
@@ -28,9 +28,8 @@ namespace Rover.SL.Implementation
                     if (y == 4)
                         map += "\n";
                 }
-            Console.WriteLine(instructions);
-            Console.WriteLine(map);
-            Console.WriteLine(rover.ToString());
+            rover.FormattedString=instructions+map+ rover.ToString();            
+            return rover;
         }
 
        
