@@ -17,8 +17,8 @@ namespace Rover.App
         public static void Main()
         {            
 
-            var container = new UnityContainer();
-            container.RegisterType<IRobotAction, RobotAction>();
+            var container = new UnityContainer();            
+            container.RegisterType<IRobotActionResolver, RobotActionResolver>();
             container.RegisterType<ICommand, Command>();
             container.RegisterType<IRoverBuilder,RoverBuilder>();
             container.RegisterType<IRoverCreator, RoverCreator>();

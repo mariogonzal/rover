@@ -12,50 +12,42 @@ namespace Rover.SL.Implementation
 {
     public class Command : ICommand
     {
-        private readonly IRobotAction robotAction;
+        private IRobotAction robotAction;
+        private readonly IRobotActionResolver robotActionResolver;
 
         private IRobot rover;
 
-        public Command(IRobotAction robotAction)
+        public Command(IRobotActionResolver robotActionResolver)
         {
-            this.robotAction = robotAction;
+            this.robotActionResolver = robotActionResolver;
         }
 
         public void ExecuteCommand(IRobot rover, string commandText)
         {
             ValidateCommand(commandText);
-            switch (commandText)
-            {
-                case "F":
-                    robotAction.MoveForward(rover);
-                    break;
-                case "L":
-                    robotAction.TurnLeft(rover);
-                    break;
-                case "R":
-                    robotAction.TurnRight(rover);
-                    break;
-            }
+            robotAction = robotActionResolver.GetRobotAction(commandText);
+            robotAction.Excecute(ref rover);
+
         }
 
         public void ReadCommand()
         {
-            rover = robotAction.Initialize();
-            robotAction.PrintRobotInMap(rover);
+            robotActionResolver.GetRobotAction("I").Excecute(ref rover);
+            robotActionResolver.GetRobotAction("P").Excecute(ref rover);            
             while (true)
-            {                
+            {
                 var commandtxt = Console.ReadLine();
                 try
                 {
                     ExecuteCommand(rover, commandtxt);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine(ex.Message);
                     Console.ResetColor();
                 }
-                robotAction.PrintRobotInMap(rover);
+                robotActionResolver.GetRobotAction("P").Excecute(ref rover);
             }
         }
 

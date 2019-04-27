@@ -41,8 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementation\Command.cs" />
+    <Compile Include="Implementation\RobotActionInitialize.cs" />
+    <Compile Include="Implementation\RobotActionMoveForward.cs" />
+    <Compile Include="Implementation\RobotActionPrintRobotInMap.cs" />
+    <Compile Include="Implementation\RobotActionResolver.cs" />
+    <Compile Include="Implementation\RobotActionTurnLeft.cs" />
+    <Compile Include="Implementation\RobotActionTurnRight.cs" />
     <Compile Include="Implementation\RoverBuilder.cs" />
     <Compile Include="Implementation\RoverCreator.cs" />
+    <Compile Include="Interfaces\IRobotActionResolver.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
     <Compile Include="Interfaces\IRobotAction.cs" />
     <Compile Include="Interfaces\IRoverBuilder.cs" />

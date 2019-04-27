@@ -10,7 +10,7 @@ using Rover.SL.Interfaces;
 
 namespace Rover.SL.Implementation
 {
-    public class RobotAction : IRobotAction
+    public class RobotAction //: IRobotAction
     {
 
         private readonly IRoverCreator roverCreator;
